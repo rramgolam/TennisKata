@@ -107,7 +107,6 @@ namespace TennisKata.Tests
             {
                 game.playerOneScored();
             }
-
             for (int i = 0; i < playerTwoScore; i++)
             {
                 game.playerTwoScored();

@@ -25,9 +25,10 @@ namespace TennisKata
             }
             else
             {
-                string score;
                 if (playerOneScore >= 4 || playerTwoScore >= 4)
                 {
+                    string score;
+
                     int minusResult = playerOneScore - playerTwoScore;
                     if (minusResult == 1)
                     {
